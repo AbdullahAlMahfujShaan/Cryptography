@@ -1,0 +1,1 @@
+There is no hard and fast rule for running the programs. It can be run by just importing and running. It will give the desired output.

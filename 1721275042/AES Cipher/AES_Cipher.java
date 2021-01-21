@@ -7,7 +7,7 @@ import java.security.MessageDigest;
 import java.util.Base64;
 
 
-public class MainActivity {
+public class AES_Cipher {
 
     private static final String ALGORITHM = "AES";
     private static final String TRANSFORMATION = "AES";
@@ -32,7 +32,7 @@ public class MainActivity {
         writer.close();
         s = readFile("G:\\Cryptography\\Code\\src\\crypto.txt");
         res = decrypt("mykey", IV, s);
-        writer = new PrintWriter("crypto22.txt", "UTF-8");
+        writer = new PrintWriter("crypto2.txt", "UTF-8");
         writer.print(res);
         writer.close();
     }
